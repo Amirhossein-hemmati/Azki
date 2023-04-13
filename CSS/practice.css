@@ -2,15 +2,18 @@
     font-family: Vazir-variable;
     src: url("../font/Vazir-Variable.woff2");
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     direction: rtl;
     font-family: Vazir-variable, sans-serif;
     font-size: 10px;
+    list-style: none;
 }
-.container{
+
+.container {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -18,10 +21,11 @@
     justify-content: center;
     align-items: center;
 }
-.header{
+
+.header {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0 5px 15px 0;
-    position:fixed;
+    position: fixed;
     z-index: 999;
     display: flex;
     align-items: center;
@@ -31,46 +35,38 @@
     left: 0;
     background-color: white;
 }
-.header__sub-header{
 
-
-
-}
-.header__register{
+.header__register {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex: 1;
 }
-.header__register__link{
-    height: 20px;
+
+.header__register__link {
     text-decoration: none;
     font-size: 1.2rem;
     color: #009ce0;
     font-weight: 700;
 
 }
-.header__name{
-    width: 30%;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    flex: 1;
 
+.header__logo {
+    width: 90px;
 }
-.header__logo{
+
+.header__logo__img {
     width: 100%;
 }
-.header__logo__img{
-    width: 100%;
-}
-.header__ham-menu{
+
+.header__ham-menu {
     width: 25%;
     display: flex;
     align-items: center;
     flex: 1;
 }
-.insurance{
+
+.insurance {
     width: 100%;
     display: flex;
     padding-top: 100px;
@@ -79,36 +75,42 @@
     align-items: center;
     background: linear-gradient(to top right, #ddf0ff, #ffffff);
 }
-.insurance__title{
+
+.insurance__title {
     width: 80%;
     font-size: 3rem;
     text-align: center;
     font-weight: 900;
     color: #555559;
 }
-.insurance__text{
+
+.insurance__text {
     font-size: 1.6rem;
     text-align: center;
     font-weight: 800;
     padding-top: 20px;
 
 }
-.insurance__spotlight{
+
+.insurance__spotlight {
     font-size: 1.1rem;
     text-align: center;
     font-weight: 900;
     padding-top: 10px;
 }
-.insurance__different-type{
-    width: 100%;
+
+.insurance__different-type {
+    width: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 40px;
 }
-.insurance__one{
-    width: 28%;
+
+.insurance__one {
+    width: 100px;
+    height: 90px;
     border-radius: 15px;
     background-color: white;
     display: flex;
@@ -119,18 +121,24 @@
     margin: 4px 4px;
     text-decoration: none;
 }
-.insurance__one:hover{
+
+.insurance__one:hover {
     border: 1px solid black;
 }
-.insurance__car{
-    width: 40%;
+
+.insurance__car {
+    width: 40px;
 }
-.insurance__text-type{
+
+.insurance__text-type {
+    font-size: 1.3rem;
     font-weight: 900;
     color: #555559;
 }
+
 .insurance__one--cash {
-    width: 28%;
+    width: 100px;
+    height: 90px;
     border-radius: 15px;
     background-color: white;
     display: flex;
@@ -142,7 +150,8 @@
     position: relative;
     text-decoration: none;
 }
-.insurance__cash{
+
+.insurance__cash {
     background-color: #EBF3E9;
     color: #3C8825;
     border-radius: 15px;
@@ -153,21 +162,24 @@
     top: -8px;
     left: 0;
 }
-.insurance__horizontal-line{
+
+.insurance__horizontal-line {
     width: 90%;
     height: 1px;
-    background-color:#5DA0FB;
+    background-color: #5DA0FB;
     margin-top: 15px;
     border: none;
 }
-.insurance__events{
+
+.insurance__events {
     width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.insurance__accident{
+
+.insurance__accident {
     width: 45%;
     border-radius: 15px;
     background-color: white;
@@ -179,56 +191,66 @@
     margin: 3px 3px;
 
 }
-.insurance__man-icon{
+
+.insurance__man-icon {
     width: 40px;
     height: 40px;
 }
-.insurance__accident-title{
+
+.insurance__accident-title {
     font-size: 1.2rem;
     color: #555559;
     font-weight: 600;
     margin-right: 20px;
 }
-.insurance__accident-title--elevator{
+
+.insurance__accident-title--elevator {
     font-size: 1.2rem;
     color: #555559;
     font-weight: 600;
     margin-right: 28px;
 }
-.insurance__accident-title--individual{
+
+.insurance__accident-title--individual {
     font-size: 1.2rem;
     color: #555559;
     font-weight: 600;
     margin-right: 12px;
 }
-.city{
+
+.city {
     width: 100%;
     margin-top: 40px;
 }
-.city__picture{
+
+.city__picture {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.two-cars{
+
+.two-cars {
     width: 90%;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.two-cars__picture{
+
+.two-cars__picture {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.chat-box{
+
+.chat-box {
     position: fixed;
     bottom: 15px;
     right: 15px;
     z-index: 999;
 }
-.online-payment{
+
+.online-payment {
     width: 100%;
     background-color: #F9F9F9;
     margin-top: 80px;
@@ -237,7 +259,8 @@
     justify-content: center;
     align-items: center;
 }
-.online-payment__title{
+
+.online-payment__title {
     width: 90%;
     font-size: 2.4rem;
     color: #2A2B2F;
@@ -245,14 +268,16 @@
     text-align: center;
     margin-top: 40px;
 }
-.online-payment__desc{
+
+.online-payment__desc {
     width: 90%;
     font-size: 1.4rem;
     text-align: justify;
     color: #707174;
     margin-top: 20px;
 }
-.online-payment__registration{
+
+.online-payment__registration {
     width: 100%;
     margin-top: 20px;
     display: flex;
@@ -260,27 +285,31 @@
     justify-content: center;
     align-items: center;
 }
-.online-payment__stages{
+
+.online-payment__stages {
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65%;
     background-color: white;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 5px 0;
 }
-.online-payment__stages-number{
+
+.online-payment__stages-number {
     font-size: 1.8rem;
     color: #F5BE41;
 }
-.online-payment__stages-text{
+
+.online-payment__stages-text {
     font-size: 1.2rem;
     font-weight: 900;
     color: #000000;
     margin-right: 20px;
 }
-.online-payment__btn{
+
+.online-payment__btn {
     background-color: #3E8DF7;
     border: none;
     display: flex;
@@ -290,31 +319,37 @@
     padding: 5px 20px;
     border-radius: 10px;
 }
-.online-payment__btn-text{
+
+.online-payment__btn-text {
     font-size: 1.4rem;
     color: white;
 
 }
-.online-payment__arrow-icon{
+
+.online-payment__arrow-icon {
     width: 25px;
     height: 25px;
     filter: contrast(0) brightness(100);
 }
-.online-payment__hit-cars{
+
+.online-payment__hit-cars {
     width: 80%;
     margin-top: 50px;
 }
-.online-payment__hit-cars-picture{
+
+.online-payment__hit-cars-picture {
     width: 100%;
     margin-bottom: -20px;
 }
-.reminder{
+
+.reminder {
     width: 90%;
     margin-top: 100px;
     border: 1px solid black;
     border-radius: 20px;
 }
-.reminder__yellow-color{
+
+.reminder__yellow-color {
     width: 100%;
     background-color: #F5BE41;
     display: flex;
@@ -324,27 +359,32 @@
     border-radius: 20px 20px 0 0;
 
 }
-.reminder__circle-clip{
+
+.reminder__circle-clip {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.reminder__circle{
+
+.reminder__circle {
     position: relative;
     padding: 20px 10px;
 }
-.reminder__clip{
+
+.reminder__clip {
     position: absolute;
-    bottom:34px;
-    left:15px;
+    bottom: 34px;
+    left: 15px;
 }
-.reminder__text{
+
+.reminder__text {
     font-size: 2.4rem;
     font-weight: 800;
-    padding-bottom: 24px;
+    padding-bottom: 40px;
 }
-.reminder__form{
+
+.reminder__form {
     width: 100%;
     padding: 20px 10px;
     display: flex;
@@ -352,8 +392,9 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.reminder__input{
-    width:45%;
+
+.reminder__input {
+    width: 45%;
     border: 1px solid darkgray;
     border-radius: 8px;
     display: flex;
@@ -361,19 +402,32 @@
     padding: 10px 5px;
     margin: 5px;
 }
-.reminder__label{
-    font-size: 1rem;
+
+.reminder__label {
+    font-size: 1.2rem;
     font-weight: 800;
     color: #707174;
 }
-.reminder__input--no-arrow{
-    width:45%;
+
+.reminder__input-distance {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.reminder__label--no-arrow {
+    width: 45%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #707174;
     border: 1px solid darkgray;
     border-radius: 8px;
-    padding: 10px 5px;
+    padding: 10px 10px;
     margin: 5px;
 }
-.reminder__btn{
+
+.reminder__btn {
     margin-top: 30px;
     background-color: #3E8DF7;
     color: white;
@@ -384,7 +438,8 @@
     border-radius: 10px;
 
 }
-.benefits{
+
+.benefits {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -392,7 +447,8 @@
     flex-wrap: wrap;
     margin-top: 60px;
 }
-.benefits__one{
+
+.benefits__one {
     width: 120px;
     height: 120px;
     display: flex;
@@ -401,16 +457,18 @@
     align-items: center;
     border: 1px solid darkgray;
     border-radius: 50%;
-    margin:8px;
+    margin: 8px;
 }
-.benefits__title{
+
+.benefits__title {
     width: 50%;
     text-align: center;
     color: #2A2B2F;
     font-weight: 700;
     padding-top: 5px;
 }
-.life-insurance{
+
+.life-insurance {
     width: 80%;
     margin-top: 140px;
     position: relative;
@@ -421,25 +479,33 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
-.life-insurance__icon{
+
+.life-insurance__icon {
+    position: relative;
+}
+
+.image {
     position: absolute;
     top: -70px;
-    right: 50px;
+    right: -80px;
 }
-.life-insurance__title{
+
+.life-insurance__title {
     font-size: 1.6rem;
     font-weight: 800;
     padding-top: 100px;
     text-align: center;
 }
-.life-insurance__desc{
+
+.life-insurance__desc {
     text-align: justify;
     font-size: 1.4rem;
     font-weight: 600;
     color: #707174;
     padding: 10px 35px;
 }
-.life-insurance__more{
+
+.life-insurance__more {
     text-decoration: none;
     background-color: #3E8DF7;
     font-size: 1.4rem;
@@ -449,24 +515,244 @@
     border-radius: 10px;
     color: white;
 }
-.movement{
+
+.movement {
     width: 90%;
     padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.movement__right{
+
+.movement__right {
     width: 45%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 5px;
 }
-.movement__left{
+
+.movement__left {
     width: 45%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 5px;
+}
+
+.definition-Azki {
+    width: 100%;
+    margin-top: 30px;
+    padding: 48px 0;
+    background-color: #3E8DF7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.definition-Azki__title {
+    font-size: 2.4rem;
+    text-align: center;
+    color: white;
+}
+
+.definition-Azki__desc {
+    font-size: 1.2rem;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.Azki-information {
+    width: 100%;
+    background: linear-gradient(#F9F4E7, #E6F6F9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Azki-information__total-data {
+    max-width: 450px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Azki-information__insurance-accessibility {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Azki-information__insurance-title {
+    color: #3E8DF7;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.Azki-information__insurance-name {
+    text-decoration: none;
+    color: #2A2B2F;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.Azki-information__access-name {
+    text-decoration: none;
+    color: #2A2B2F;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.Azki-information__insurance-name:hover {
+    color: #009ce0;
+}
+
+.Azki-information__access-name:hover {
+    color: #009ce0;
+}
+
+.Azki-information__general {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.Azki-information__logo {
+    width: 100%;
+}
+
+.Azki-information__logo__img {
+    width: 25%;
+}
+
+.Azki-information__data {
+    width: 100%;
+    padding-left: 14px;
+}
+
+.Azki-information__desc {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.Azki-information__about-us {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Azki-information__explanation {
+    color: black;
+    padding-right: 15px;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.Azki-information__phone-number {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.Azki-information__mail {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.Azki-information__links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Azki-information__links-logo {
+    background: white;
+    padding: 8px 10px;
+}
+
+.Azki-information__links-img {
+    width: 60px;
+    height: 60px;
+}
+
+.Azki-footer {
+    width: 100%;
+    background: linear-gradient(to right, #2151CC, #739FF2);
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Azki-footer__copy-right {
+    width: 58%;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.Azki-footer__social-network {
+    width: 150px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Azki-footer_social-network__background {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Azki-footer_social-network__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Azki-footer__telegram {
+    border-radius: 50%;
+}
+
+@media (min-width: 376px) {
+    .insurance__different-type {
+        width: 400px;
+    }
+
+    .insurance__one {
+        width: 120px;
+        height: 110px;
+    }
+
+    .insurance__one--cash {
+        width: 120px;
+        height: 110px;
+    }
+}
+
+@media (min-width: 960px) {
+    .header__ham-menu{
+        display: none;
+    }
 }
